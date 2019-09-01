@@ -3,6 +3,8 @@
     <!-- Load the latest version of TensorFlow.js -->
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+
   </head>
   <body>
     <div id="console"></div>
@@ -10,5 +12,19 @@
     <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
     <!-- Load index.js after the content of the page -->
     <script src="index.js"></script>
+
+   <button id="class-a" style = "display: block; margin-left: auto; margin-right: auto;">
+                Add Wave Sign <img src="waiving-hand.png"></button>
+                <br>
+    <button id="class-b" style = "display: block; margin-left: auto; margin-right: auto;">
+               Add Fist Sign <img src="raised-fist.png"></button>
+               <br>
+    <button id="class-c" style = "display: block; margin-left: auto; margin-right: auto;">
+               Add Victory Sign <img src="victory-hand.png"></button>
+               <br>
+    <button id="class-d" style = "display: block; margin-left: auto; margin-right: auto;">
+               Add Doing nothing Sign <img src="maninlotus.png"></button>
+
+    
   </body>
 </html>
